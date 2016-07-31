@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
 	selector: 'bacon-app',
-	templateUrl: './app/app.component.html'
+	templateUrl: './app/templates/splash.html'
 })
 
 export class AppComponent { }
