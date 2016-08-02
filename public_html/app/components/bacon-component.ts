@@ -11,10 +11,10 @@ import {Bacon} from "../classes/bacon";
 export class BaconComponent implements OnInit {
 	constructor(private baconService: BaconService, private route: ActivatedRoute, private router: Router) {}
 
-	baconPlate: Bacon[];
-	errorMessage: string;
-	paragraphs: number;
-	type: string;
+	baconPlate: Bacon[] = [];
+	errorMessage: string = "";
+	paragraphs: number = 0;
+	type: string = "";
 
 	ngOnInit() {
 		this.route.params.subscribe(
