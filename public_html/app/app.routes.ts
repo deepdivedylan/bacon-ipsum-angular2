@@ -3,9 +3,8 @@ import {BaconComponent} from "./components/bacon-component";
 
 export const routes: RouterConfig = [
 	{path: "/bacon/", component: BaconComponent},
-	{path: "/bacon/:id", component: BaconComponent},
-	{path: "/bacon/:type", component: BaconComponent},
-	{path: "/bacon/:type/:id", component: BaconComponent},
+	{path: "/bacon/:paragraphs", component: BaconComponent},
+	{path: "/bacon/:type/:paragraphs", component: BaconComponent}
 ];
 
 export const appRouterProviders = [
