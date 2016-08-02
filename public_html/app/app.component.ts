@@ -4,7 +4,7 @@ import {HTTP_PROVIDERS} from "@angular/http";
 
 @Component({
 	selector: 'bacon-app',
-	templateUrl: './templates/splash.html',
+	templateUrl: './app/templates/bacon-app.html',
 	directives: [ROUTER_DIRECTIVES],
 	providers: [HTTP_PROVIDERS]
 })

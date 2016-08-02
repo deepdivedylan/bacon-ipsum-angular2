@@ -4,7 +4,7 @@ import {BaconService} from "../services/bacon-service";
 import {Bacon} from "../classes/bacon";
 
 @Component({
-	templateUrl: "../templates/bacon.html",
+	templateUrl: "./app/templates/bacon.html",
 	providers: [BaconService]
 })
 
